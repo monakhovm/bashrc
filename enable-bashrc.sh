@@ -4,4 +4,4 @@ cp ./.bashrc $HOME/
 cp ./.vimrc ./.viminfo $HOME/
 cp -r ./.vim $HOME/
 source $HOME/.bashrc
-source .git-prompt.sh
+echo "source /usr/share/git/completion/git-prompt.sh" >> $HOME/.bashrc 
