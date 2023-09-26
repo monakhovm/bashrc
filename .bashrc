@@ -121,9 +121,9 @@ fi
 
 export PATH="$HOME/.local/bin:$PATH"
 
-complete -C /usr/bin/terraform terraform
+#:complete -C /usr/bin/terraform terraform
 
-alias dc='docker compose'
-alias dce='docker compose exec'
-alias dcu='docker compose up -d'
+#alias dc='docker compose'
+#alias dce='docker compose exec'
+#alias dcu='docker compose up -d'
 
