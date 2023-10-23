@@ -127,3 +127,5 @@ alias dc='docker compose'
 alias dce='docker compose exec'
 alias dcu='docker compose up -d'
 
+# enable DATE and TIME in history command in [2000-12-31 23:59:59] format
+export HISTTIMEFORMAT=`echo -e "\033[1;33m"[%F %T] "\033[0m" `
